@@ -4,7 +4,7 @@
 <div class="v1">  
     <v-menu style="width:240px" :data="verticalMenuData"></v-menu>
     <v-menu style="width:240px" :data="verticalMenuData"></v-menu>
-     </div> 
+</div> 
 
   
 

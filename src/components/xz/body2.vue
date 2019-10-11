@@ -1,20 +1,24 @@
 <template>
     <div class="a1">
-
+<el-divider></el-divider>
  <div class="grid-content bg-purple"><img src="../../pic/thematicpic12.png" alt=""> <h3>金秋十月</h3> <h3>精选模版</h3>   </div>
  <div class="grid-content bg-purple"><img src="../../pic/thematicpic12.png" alt=""> <h3>金秋十月</h3> <h3>精选模版</h3>   </div>
   <div class="grid-content bg-purple"><img src="../../pic/thematicpic12.png" alt=""> <h3>金秋十月</h3> <h3>精选模版</h3>   </div>
   <div class="grid-content bg-purple"><img src="../../pic/thematicpic12.png" alt=""> <h3>金秋十月</h3> <h3>精选模版</h3>   </div>
   <div class="grid-content bg-purple"><img src="../../pic/thematicpic12.png" alt=""> <h3>金秋十月</h3> <h3>精选模版</h3>   </div>
+   
+ <BackTop> </BackTop>
     </div>
+ 
 </template>
+
+
+
 <style scoped>
 
  .a1{
      margin-top:30px;
  }
-
- 
 
   .el-row {
     margin-bottom: 20px;
@@ -35,6 +39,7 @@
     background: #e5e9f2;
   }
   .grid-content {
+    
     border-radius: 4px;
     min-height: 150px;
     text-align: center;
@@ -44,6 +49,11 @@
    width: 180px;
     margin-top:30px;
     
+  }
+  .a1:after {
+    content:"";
+    display:block;
+    clear:both;
   }
   .grid-content  img{
       width:100%;
